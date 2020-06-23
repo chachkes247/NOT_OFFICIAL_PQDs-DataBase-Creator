@@ -1,0 +1,16 @@
+הזמנים החוקיים כפופים לכמות של עשרה זמני מחזור ! 
+
+להפוך את הזמנים לסליידר או ליחידות מתוך זמן מחזור ? או להציג חישוב שלהם?
+
+שלא יהיה אפשר ליצא סיגנל שמרווח הזמנים שלו לא חוקי
+
+להוסיף פונקציה של מחיקה מהדאטהבייס?
+
+שינוי תדר גורר שינוי בכמות הדגימות (במקום בקצב הדגימה יענו)
+
+remove funnction "Specifymodel" (not Specifymodel4DB)
+
+
+A comprehensive overview on signal processing and artificial
+intelligence techniques applications in classification of power
+quality disturbances
