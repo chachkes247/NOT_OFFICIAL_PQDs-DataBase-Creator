@@ -10,7 +10,7 @@ function [ parameters ] = chooseModel(  app  )
 % Parameters Dynamic range :
 switch app.signal_label
 
-    case 'Normal' % pure sine wave
+    case 'Noraml' % pure sine wave
         defaultOffVisibality(app); %TODO : maybe there is a way to write this function as along automatic command instead of a func
         %app.AlphaSlider.Limits = [1,100];
         
@@ -69,15 +69,6 @@ switch app.signal_label
         app.FnSlider.Visible = 'on';       app.FnSliderLabel.Visible = 'on';
         
         app.AlphaSlider.Limits = [0.1,0.8];
-        app.AlphaSlider.Value = app.AlphaSlider.Limits(1);
-
-        case 'Impulsive Transient'
-        defaultOffVisibality(app);
-        app.AlphaSlider.Visible = 'on';    app.AlphaSliderLabel.Visible = 'on';
-        app.t1NumericEdit.Visible = 'on';  app.t1NumericEditLabel.Visible = 'on';
-        app.t2NumericEdit.Visible = 'on';  app.t2NumericEditLabel.Visible = 'on';
-        
-        app.AlphaSlider.Limits = [0,0.414];
         app.AlphaSlider.Value = app.AlphaSlider.Limits(1);
 
         

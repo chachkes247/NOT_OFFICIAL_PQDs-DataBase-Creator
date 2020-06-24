@@ -8,11 +8,9 @@ switch signal_label
 
     case 'Oscillatory transient'
         iterval_limits = [ 0.5*Tcycle  , 3*Tcycle ];
-    case 'Impulsive Transient'
-        iterval_limits = [ Tcycle/20  , Tcycle/10 ];
     case  {'Spike', 'Notch'}
         iterval_limits = [ 0.01*Tcycle , 0.05*Tcycle ];
-    case {'Flicker','Harmonics','Flicker+Harmonics','Normal'}
+    case {'Flicker','Harmonics','Flicker+Harmonics'}
         % These diturbs has no dependency on t2-t1 time diff
         legal = true;
         return ; 
